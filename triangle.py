@@ -7,7 +7,10 @@ def area(a, h):
             Возвращаемое значение:
                 a * h / 2 (int/float): полупроизведение a и b
     '''
-    return a * h / 2
+    if a>0 and h>0:
+        return a * h / 2
+    else:
+        return "FAIL"
 
 def perimeter(a, b, c):
     ''' 
@@ -20,4 +23,7 @@ def perimeter(a, b, c):
         Возвращаемое значение:
             a + b + c  (int): сумма длин трех сторон
     '''
-    return a + b + c
+    if a>0 and b>0 and c>0 and ((a+b)>c and (b+c)>a and (a+c)>b):
+        return a + b + c
+    else:
+        return "FAIL"
