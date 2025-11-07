@@ -78,4 +78,9 @@
 `f21f05e`   | comments added
 `776b738`   | was fixed
 `09bbd26`   | new file triangle was added
-`1051f5f`   | new file rectangle.py was added
+`1051f5f`   | new file rectangle.py was 
+
+
+## TESTS
+* Добавлены 4 файла с тестами (для каждого файла с формулами)
+
